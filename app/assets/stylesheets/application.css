@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+ /*   background: linear-gradient(#e66465, #9198e5);*/
+}
+/*body > footer {
+    margin-top: auto;
+}
+
+
+
+
+
+
