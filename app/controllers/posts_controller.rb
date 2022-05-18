@@ -10,6 +10,7 @@
   # GET /posts/1
   def show
     @post.update(views: @post.views + 1)
+    @comments = @post.comments.order(created_at: :desc)
   end
 
   # GET /posts/new

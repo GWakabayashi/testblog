@@ -1,5 +1,4 @@
-<p style="color: green"><%= notice %></p>
-  <div class="container">
+<div class="container">
   <!-- Object Partial 
 
    - @post object (instance of Post model) that responds to to_partial_path
@@ -14,4 +13,14 @@
 
     <%= button_to "Destroy this post", @post, method: :delete, class:'btn btn-danger' %>
   </div>
+</div>
+
+<div class="container">
+  <br>
+  <%=  render 'comments/form', post: @post %>
+  <br>
+  <% @comments.each do |comment| %>
+    <%=  render 'comments/comment', post: @post, comment: comment %>
+    <br>
+  <% end %>
 </div>
