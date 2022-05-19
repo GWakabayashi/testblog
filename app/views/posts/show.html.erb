@@ -1,26 +1,30 @@
-<div class="container">
-  <!-- Object Partial 
+<section>
+  <div class="container">
+    <!-- Object Partial 
 
-   - @post object (instance of Post model) that responds to to_partial_path
+     - @post object (instance of Post model) that responds to to_partial_path
 
-   - a local variable named "post" will be automatically assigned - below is a short hand for [...], post: @post -->
+     - a local variable named "post" will be automatically assigned - below is a short hand for [...], post: @post -->
 
-  <%= render @post %>
+    <%= render @post %>
 
-  <div>
-    <%= link_to "Edit", edit_post_path(@post), class:'text-decoration-none' %> |
-    <%= link_to "Back to posts", posts_path, class:'text-decoration-none' %>
+    <div>
+      <%= link_to "Edit", edit_post_path(@post), class:'text-decoration-none' %> |
+      <%= link_to "Back to posts", posts_path, class:'text-decoration-none' %>
 
-    <%= button_to "Destroy this post", @post, method: :delete, class:'btn btn-danger' %>
+      <%= button_to "Destroy this post", @post, method: :delete, class:'btn btn-danger' %>
+    </div>
   </div>
-</div>
+</section>
 
-<div class="container">
-  <br>
-  <%=  render 'comments/form', post: @post %>
-  <br>
-  <% @comments.each do |comment| %>
-    <%=  render 'comments/comment', post: @post, comment: comment %>
+<section>
+  <div class="container">
     <br>
-  <% end %>
-</div>
+    <%=  render 'comments/form', post: @post, comment: @post.comments.build, submit_label: 'Reply' %>
+    <br>
+    <% @comments.each do |comment| %>
+      <%=  render 'comments/comment', post: @post, comment: comment%>
+      <br>
+    <% end %>
+  </div>
+</section>

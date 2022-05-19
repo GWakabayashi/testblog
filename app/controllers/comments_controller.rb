@@ -1,4 +1,4 @@
-class CommentsController < ApplicationController
+ class CommentsController < ApplicationController
     before_action :authenticate_user!
     before_action :set_post 
 
@@ -20,6 +20,18 @@ class CommentsController < ApplicationController
         @comment.destroy
         flash[:notice] = "Comment has been deleted"
         redirect_to post_path(@post)
+    end
+
+    def update
+        @comment = @post.comments.find(params[:id])
+
+        respond_to do |format|
+            if @comment.update(comment_params)
+                format.html { redirect_to post_url(@post), notice: 'Comment has been updated' }
+            else
+                format.html { redirect_to post_url(@post), alert: 'Comment was not updated!' }
+            end
+        end
     end
 
     private

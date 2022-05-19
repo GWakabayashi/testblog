@@ -6,7 +6,8 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-User.create(email: 'Gilfoyle@piedpiper.com', password:'password', password_confirmation: 'password')
+User.create(email: 'Gilfoyle@piedpiper.com', name: 'Gilfoyle' password:'password', password_confirmation: 'password')
+User.create(email: 'Erlich@piedpiper.com', name: 'Erlich  ' password:'password', password_confirmation: 'password')
 
 10.times do |x|
     Post.create(
