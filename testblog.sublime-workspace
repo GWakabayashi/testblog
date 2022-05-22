@@ -520,553 +520,12 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/comments/_comment.html.erb",
-			"redo_stack":
-			[
-				[
-					79,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAJkDAAAAAAAAmQMAAAAAAAAQAAAAICAgICAgICAgICAgICAgIJgDAAAAAAAAmAMAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAqQMAAAAAAACpAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					76,
-					1,
-					"insert",
-					{
-						"characters": "\t\t\t"
-					},
-					"AwAAAHIDAAAAAAAAcgMAAAAAAAAEAAAAICAgIG4DAAAAAAAAbgMAAAAAAAAEAAAAICAgIGwDAAAAAAAAbAMAAAAAAAACAAAAICA",
-					"AQAAAAAAAAABAAAAdgMAAAAAAAB2AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					73,
-					1,
-					"insert",
-					{
-						"characters": "\t\t\t"
-					},
-					"AwAAAF8DAAAAAAAAXwMAAAAAAAAEAAAAICAgIFsDAAAAAAAAWwMAAAAAAAAEAAAAICAgIFkDAAAAAAAAWQMAAAAAAAACAAAAICA",
-					"AQAAAAAAAAABAAAAYwMAAAAAAABjAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					70,
-					1,
-					"paste",
-					null,
-					"AgAAAIQDAAAAAAAA9AMAAAAAAAAAAAAAIgMAAAAAAAAiAwAAAAAAAGIAAABjb21tZW50c19lZGl0X3BhcmFtOiAiZWRpdC1idXR0b24tI3tjb21tZW50LmlkfSIKICAgICAgfSwKICAgICAgaWQ6ICJlZGl0LWJ1dHRvbi0je2NvbW1lbnQuaWR9IiAlPg",
-					"AQAAAAAAAAABAAAAhAMAAAAAAACEAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					65,
-					1,
-					"insert",
-					{
-						"characters": ".id"
-					},
-					"AwAAAIwDAAAAAAAAjAMAAAAAAAABAAAAZIsDAAAAAAAAiwMAAAAAAAABAAAAaYoDAAAAAAAAigMAAAAAAAABAAAALg",
-					"AQAAAAAAAAABAAAAjQMAAAAAAACNAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					64,
-					1,
-					"insert_completion",
-					{
-						"completion": "comment",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "comment"
-					},
-					"AgAAAIMDAAAAAAAAgwMAAAAAAAAHAAAAY29tbWVudIMDAAAAAAAAhwMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAigMAAAAAAACKAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					63,
-					1,
-					"insert",
-					{
-						"characters": "comm"
-					},
-					"BAAAAIYDAAAAAAAAhgMAAAAAAAABAAAAbYUDAAAAAAAAhQMAAAAAAAABAAAAbYQDAAAAAAAAhAMAAAAAAAABAAAAb4MDAAAAAAAAgwMAAAAAAAABAAAAYw",
-					"AQAAAAAAAAABAAAAhwMAAAAAAACHAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					62,
-					1,
-					"insert_snippet",
-					{
-						"contents": "#{${0:$SELECTION}}"
-					},
-					"AQAAAIEDAAAAAAAAgQMAAAAAAAADAAAAI3t9",
-					"AQAAAAAAAAABAAAAgwMAAAAAAACDAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					61,
-					1,
-					"insert_completion",
-					{
-						"completion": "edit-button-",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "edit-button-"
-					},
-					"AgAAAHUDAAAAAAAAdQMAAAAAAAAMAAAAZWRpdC1idXR0b24tdQMAAAAAAAB5AwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAgQMAAAAAAACBAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					59,
-					1,
-					"insert",
-					{
-						"characters": "edit"
-					},
-					"BAAAAHgDAAAAAAAAeAMAAAAAAAABAAAAdHcDAAAAAAAAdwMAAAAAAAABAAAAaXYDAAAAAAAAdgMAAAAAAAABAAAAZHUDAAAAAAAAdQMAAAAAAAABAAAAZQ",
-					"AQAAAAAAAAABAAAAeQMAAAAAAAB5AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					58,
-					1,
-					"insert_snippet",
-					{
-						"contents": "\"$0\""
-					},
-					"AQAAAHQDAAAAAAAAdAMAAAAAAAACAAAAIiI",
-					"AQAAAAAAAAABAAAAdQMAAAAAAAB1AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					57,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAHMDAAAAAAAAcwMAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAdAMAAAAAAAB0AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					56,
-					1,
-					"insert",
-					{
-						"characters": "id:"
-					},
-					"AwAAAHIDAAAAAAAAcgMAAAAAAAABAAAAOnEDAAAAAAAAcQMAAAAAAAABAAAAZHADAAAAAAAAcAMAAAAAAAABAAAAaQ",
-					"AQAAAAAAAAABAAAAcwMAAAAAAABzAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					55,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAGQDAAAAAAAAZAMAAAAAAAAMAAAAICAgICAgICAgICAgYwMAAAAAAABjAwAAAAAAAAEAAAAK",
-					"AQAAAAAAAAABAAAAcAMAAAAAAABwAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					54,
-					1,
-					"insert",
-					{
-						"characters": ","
-					},
-					"AQAAAGIDAAAAAAAAYgMAAAAAAAABAAAALA",
-					"AQAAAAAAAAABAAAAYwMAAAAAAABjAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					51,
-					1,
-					"left_delete",
-					null,
-					"BgAAAGUDAAAAAAAAZgMAAAAAAAAAAAAAZgMAAAAAAABqAwAAAAAAAAAAAABqAwAAAAAAAG4DAAAAAAAAAAAAAG4DAAAAAAAAcgMAAAAAAAAAAAAAcgMAAAAAAABzAwAAAAAAAAAAAABzAwAAAAAAAHgDAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZQMAAAAAAABlAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					46,
-					1,
-					"insert_snippet",
-					{
-						"contents": "\"$0\""
-					},
-					"AQAAAHYDAAAAAAAAdgMAAAAAAAACAAAAIiI",
-					"AQAAAAAAAAABAAAAdwMAAAAAAAB3AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					45,
-					1,
-					"run_macro_file",
-					{
-						"file": "res://Packages/Default/Delete Left Right.sublime-macro"
-					},
-					"AgAAAHYDAAAAAAAAdwMAAAAAAAAAAAAAdgMAAAAAAAB3AwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdgMAAAAAAAB2AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					44,
-					1,
-					"left_delete",
-					null,
-					"BAAAAHcDAAAAAAAAeAMAAAAAAAAAAAAAeAMAAAAAAAB5AwAAAAAAAAAAAAB5AwAAAAAAAHoDAAAAAAAAAAAAAHoDAAAAAAAAewMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAdwMAAAAAAAB3AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					43,
-					1,
-					"insert",
-					{
-						"characters": "edit"
-					},
-					"BAAAAHoDAAAAAAAAegMAAAAAAAABAAAAdHkDAAAAAAAAeQMAAAAAAAABAAAAaXgDAAAAAAAAeAMAAAAAAAABAAAAZHcDAAAAAAAAdwMAAAAAAAABAAAAZQ",
-					"AQAAAAAAAAABAAAAewMAAAAAAAB7AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					42,
-					1,
-					"insert_snippet",
-					{
-						"contents": "'$0'"
-					},
-					"AQAAAHYDAAAAAAAAdgMAAAAAAAACAAAAJyc",
-					"AQAAAAAAAAABAAAAdwMAAAAAAAB3AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					41,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAHUDAAAAAAAAdQMAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAdgMAAAAAAAB2AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					40,
-					1,
-					"insert",
-					{
-						"characters": ":"
-					},
-					"AQAAAHQDAAAAAAAAdAMAAAAAAAABAAAAOg",
-					"AQAAAAAAAAABAAAAdQMAAAAAAAB1AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					39,
-					1,
-					"insert",
-					{
-						"characters": "d"
-					},
-					"AQAAAHMDAAAAAAAAcwMAAAAAAAABAAAAZA",
-					"AQAAAAAAAAABAAAAdAMAAAAAAAB0AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					38,
-					1,
-					"insert",
-					{
-						"characters": "\ni"
-					},
-					"AwAAAHIDAAAAAAAAcgMAAAAAAAABAAAAaWYDAAAAAAAAZgMAAAAAAAAMAAAAICAgICAgICAgICAgZQMAAAAAAABlAwAAAAAAAAEAAAAK",
-					"AQAAAAAAAAABAAAAcwMAAAAAAABzAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					35,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAFMDAAAAAAAAUwMAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAVAMAAAAAAABUAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					34,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAFIDAAAAAAAAUgMAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAUwMAAAAAAABTAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					31,
-					1,
-					"insert",
-					{
-						"characters": ".id"
-					},
-					"AwAAAE8DAAAAAAAATwMAAAAAAAABAAAAZE4DAAAAAAAATgMAAAAAAAABAAAAaU0DAAAAAAAATQMAAAAAAAABAAAALg",
-					"AQAAAAAAAAABAAAAUAMAAAAAAABQAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					30,
-					1,
-					"insert_completion",
-					{
-						"completion": "comment",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "comment"
-					},
-					"AgAAAEYDAAAAAAAARgMAAAAAAAAHAAAAY29tbWVudEYDAAAAAAAASwMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATQMAAAAAAABNAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					29,
-					1,
-					"insert",
-					{
-						"characters": "comme"
-					},
-					"BQAAAEoDAAAAAAAASgMAAAAAAAABAAAAZUkDAAAAAAAASQMAAAAAAAABAAAAbUgDAAAAAAAASAMAAAAAAAABAAAAbUcDAAAAAAAARwMAAAAAAAABAAAAb0YDAAAAAAAARgMAAAAAAAABAAAAYw",
-					"AQAAAAAAAAABAAAASwMAAAAAAABLAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					26,
-					1,
-					"insert",
-					{
-						"characters": "\""
-					},
-					"AQAAAEcDAAAAAAAARwMAAAAAAAABAAAAIg",
-					"AQAAAAAAAAABAAAASAMAAAAAAABIAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					25,
-					1,
-					"left_delete",
-					null,
-					"AQAAAEcDAAAAAAAASAMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAARwMAAAAAAABHAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					22,
-					1,
-					"insert",
-					{
-						"characters": "\""
-					},
-					"AQAAADcDAAAAAAAANwMAAAAAAAABAAAAIg",
-					"AQAAAAAAAAABAAAAOAMAAAAAAAA4AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					21,
-					1,
-					"left_delete",
-					null,
-					"AQAAADcDAAAAAAAAOAMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANwMAAAAAAAA3AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					18,
-					1,
-					"insert",
-					{
-						"characters": "}"
-					},
-					"AQAAAEYDAAAAAAAARgMAAAAAAAABAAAAfQ",
-					"AQAAAAAAAAABAAAARwMAAAAAAABHAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					17,
-					1,
-					"insert",
-					{
-						"characters": "-#{"
-					},
-					"AwAAAEUDAAAAAAAARQMAAAAAAAABAAAAe0QDAAAAAAAARAMAAAAAAAABAAAAI0MDAAAAAAAAQwMAAAAAAAABAAAALQ",
-					"AQAAAAAAAAABAAAARgMAAAAAAABGAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"insert",
-					{
-						"characters": "-button"
-					},
-					"BwAAAEIDAAAAAAAAQgMAAAAAAAABAAAAbkEDAAAAAAAAQQMAAAAAAAABAAAAb0ADAAAAAAAAQAMAAAAAAAABAAAAdD8DAAAAAAAAPwMAAAAAAAABAAAAdD4DAAAAAAAAPgMAAAAAAAABAAAAdT0DAAAAAAAAPQMAAAAAAAABAAAAYjwDAAAAAAAAPAMAAAAAAAABAAAALQ",
-					"AQAAAAAAAAABAAAAQwMAAAAAAABDAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					1,
-					"left_delete",
-					null,
-					"AQAAADwDAAAAAAAAPQMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAPAMAAAAAAAA8AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					14,
-					1,
-					"insert",
-					{
-						"characters": "edit_"
-					},
-					"BQAAADwDAAAAAAAAPAMAAAAAAAABAAAAXzsDAAAAAAAAOwMAAAAAAAABAAAAdDoDAAAAAAAAOgMAAAAAAAABAAAAaTkDAAAAAAAAOQMAAAAAAAABAAAAZDgDAAAAAAAAOAMAAAAAAAABAAAAZQ",
-					"AQAAAAAAAAABAAAAPQMAAAAAAAA9AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					13,
-					1,
-					"insert_snippet",
-					{
-						"contents": "'$0'"
-					},
-					"AQAAADcDAAAAAAAANwMAAAAAAAACAAAAJyc",
-					"AQAAAAAAAAABAAAAOAMAAAAAAAA4AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					12,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAADYDAAAAAAAANgMAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAANwMAAAAAAAA3AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					11,
-					1,
-					"insert",
-					{
-						"characters": ":"
-					},
-					"AQAAADUDAAAAAAAANQMAAAAAAAABAAAAOg",
-					"AQAAAAAAAAABAAAANgMAAAAAAAA2AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"left_delete",
-					null,
-					"AQAAADUDAAAAAAAANgMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANQMAAAAAAAA1AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					9,
-					1,
-					"insert",
-					{
-						"characters": "ams"
-					},
-					"AwAAADUDAAAAAAAANQMAAAAAAAABAAAAczQDAAAAAAAANAMAAAAAAAABAAAAbTMDAAAAAAAAMwMAAAAAAAABAAAAYQ",
-					"AQAAAAAAAAABAAAANgMAAAAAAAA2AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					8,
-					1,
-					"insert",
-					{
-						"characters": "dit_par"
-					},
-					"BwAAADIDAAAAAAAAMgMAAAAAAAABAAAAcjEDAAAAAAAAMQMAAAAAAAABAAAAYTADAAAAAAAAMAMAAAAAAAABAAAAcC8DAAAAAAAALwMAAAAAAAABAAAAXy4DAAAAAAAALgMAAAAAAAABAAAAdC0DAAAAAAAALQMAAAAAAAABAAAAaSwDAAAAAAAALAMAAAAAAAABAAAAZA",
-					"AQAAAAAAAAABAAAAMwMAAAAAAAAzAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					7,
-					1,
-					"insert",
-					{
-						"characters": "s_e"
-					},
-					"AwAAACsDAAAAAAAAKwMAAAAAAAABAAAAZSoDAAAAAAAAKgMAAAAAAAABAAAAXykDAAAAAAAAKQMAAAAAAAABAAAAcw",
-					"AQAAAAAAAAABAAAALAMAAAAAAAAsAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"insert_completion",
-					{
-						"completion": "comment",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "comment"
-					},
-					"AgAAACIDAAAAAAAAIgMAAAAAAAAHAAAAY29tbWVudCIDAAAAAAAAJwMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKQMAAAAAAAApAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					5,
-					1,
-					"insert",
-					{
-						"characters": "\ncomme"
-					},
-					"BwAAACYDAAAAAAAAJgMAAAAAAAABAAAAZSUDAAAAAAAAJQMAAAAAAAABAAAAbSQDAAAAAAAAJAMAAAAAAAABAAAAbSMDAAAAAAAAIwMAAAAAAAABAAAAbyIDAAAAAAAAIgMAAAAAAAABAAAAYxIDAAAAAAAAEgMAAAAAAAAQAAAAICAgICAgICAgICAgICAgIBEDAAAAAAAAEQMAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAJwMAAAAAAAAnAwAAAAAAAAAAAAAAAPC/"
-				]
-			],
+			"file": "app/views/layouts/_header.html.erb",
 			"settings":
 			{
-				"buffer_size": 1265,
-				"encoding": "UTF-8",
+				"buffer_size": 1845,
 				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-			]
-		},
-		{
-			"file": "app/javascript/controllers/comments_controller.js",
-			"settings":
-			{
-				"buffer_size": 590,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					9,
-					1,
-					"left_delete",
-					null,
-					"AQAAAAACAAAAAAAAAAIAAAAAAAA5AAAAY29uc3QgZWRpdEJ1dHRvbiA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGVkaXRCdXR0b25JRCk7",
-					"AQAAAAAAAAABAAAAAAIAAAAAAAA5AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					12,
-					1,
-					"left_delete",
-					null,
-					"AQAAAFsBAAAAAAAAWwEAAAAAAAAqAAAAY29uc3QgZWRpdEJ1dHRvbklEID0gZXZlbnQucGFyYW1zWyJlZGl0Il07",
-					"AQAAAAAAAAABAAAAWwEAAAAAAACFAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					4,
-					"left_delete",
-					null,
-					"BAAAAH0CAAAAAAAAfQIAAAAAAACVAQAAdG9nZ2xlRWRpdEJ1dHRvbihlZGl0QnV0dG9uKSB7CiAgICBpZiAoZWRpdEJ1dHRvbi5pbm5lclRleHQgPT09ICJFZGl0IikgewogICAgICBlZGl0QnV0dG9uLmlubmVyVGV4dCA9ICJDYW5jZWwiOwogICAgICB0aGlzLnRvZ2dsZUVkaXRCdXR0b25DbGFzcyhlZGl0QnV0dG9uKTsKICAgIH0gZWxzZSB7CiAgICAgIGVkaXRCdXR0b24uaW5uZXJUZXh0ID0gIkVkaXQiOwogICAgICB0aGlzLnRvZ2dsZUVkaXRCdXR0b25DbGFzcyhlZGl0QnV0dG9uKTsKICAgIH0KICB9CgogIHRvZ2dsZUVkaXRCdXR0b25DbGFzcyhlZGl0QnV0dG9uKSB7CiAgICBlZGl0QnV0dG9uLmNsYXNzTGlzdC50b2dnbGUoImJ0bi1zZWNvbmRhcnkiKTsKICAgIGVkaXRCdXR0b24uY2xhc3NMaXN0LnRvZ2dsZSgiYnRuLXdhcm5pbmciKTsKICB9ewIAAAAAAAB7AgAAAAAAAAIAAAAgIHoCAAAAAAAAegIAAAAAAAABAAAACnkCAAAAAAAAeQIAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAfQIAAAAAAAASBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					18,
-					4,
-					"left_delete",
-					null,
-					"BAAAAFMCAAAAAAAAUwIAAAAAAAAiAAAAdGhpcy50b2dnbGVFZGl0QnV0dG9uKGVkaXRCdXR0b24pO1ECAAAAAAAAUQIAAAAAAAACAAAAICBPAgAAAAAAAE8CAAAAAAAAAgAAACAgTgIAAAAAAABOAgAAAAAAAAEAAAAK",
-					"AQAAAAAAAAABAAAAdQIAAAAAAABTAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					21,
-					1,
-					"paste",
-					null,
-					"AgAAAAAAAAAAAAAATQIAAAAAAAAAAAAATQIAAAAAAABNAgAAAAAAAFQCAABpbXBvcnQgeyBDb250cm9sbGVyIH0gZnJvbSAiQGhvdHdpcmVkL3N0aW11bHVzIjsKCmV4cG9ydCBkZWZhdWx0IGNsYXNzIGV4dGVuZHMgQ29udHJvbGxlciB7CiAgaW5pdGlhbGl6ZSgpIHt9CiAgY29ubmVjdCgpIHt9CiAgdG9nZ2xlRm9ybShldmVudCkgewogICAgY29uc29sZS5sb2coIkkgY2xpY2tlZCB0aGUgZWRpdCBidXR0b24uIik7CiAgICBldmVudC5wcmV2ZW50RGVmYXVsdCgpOwogICAgZXZlbnQuc3RvcFByb3BhZ2F0aW9uKCk7CiAgICBjb25zdCBmb3JtSUQgPSBldmVudC5wYXJhbXNbImZvcm0iXTsKICAgIGNvbnN0IGNvbW1lbnRDb250ZW50SUQgPSBldmVudC5wYXJhbXNbImJvZHkiXTsKICAgIAoKICAgIGNvbnN0IGZvcm0gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChmb3JtSUQpOwogICAgY29uc3QgY29tbWVudENvbnRlbnQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChjb21tZW50Qm9keUlEKTsKICAgIAoKICAgIGZvcm0uY2xhc3NMaXN0LnRvZ2dsZSgiZC1ub25lIik7CiAgICBmb3JtLmNsYXNzTGlzdC50b2dnbGUoIm10LTUiKTsKICAgIGNvbW1lbnRDb250ZW50LmNsYXNzTGlzdC50b2dnbGUoImQtbm9uZSIpOwogIH0KfQ",
-					"AQAAAAAAAAABAAAAVAIAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
+			}
 		}
 	],
 	"build_system": "",
@@ -1110,11 +569,12 @@
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/javascript",
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/javascript/controllers",
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/views",
-		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/views/comments"
+		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/views/layouts"
 	],
 	"file_history":
 	[
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/javascript/controllers/comments_controller.js",
+		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/views/comments/_comment.html.erb",
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/views/layouts/_notifications.html.erb",
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/controllers/posts_controller.rb",
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/views/layouts/_notification.html.erb",
@@ -1127,7 +587,6 @@
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/models/post.rb",
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/models/user.rb",
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/Gemfile",
-		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/views/comments/_comment.html.erb",
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/views/posts/index.html.erb",
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/views/posts/_post.html.erb",
 		"/Users/linear_ninja/Dev/Rails/testblog/testblog/app/controllers/comments_controller.rb",
@@ -1285,56 +744,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/comments/_comment.html.erb",
-					"semi_transient": false,
+					"file": "app/views/layouts/_header.html.erb",
+					"selected": true,
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1265,
+						"buffer_size": 1845,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								785,
-								785
+								12,
+								60
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/javascript/controllers/comments_controller.js",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 590,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								589,
-								589
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1438,7 +866,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 332.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
